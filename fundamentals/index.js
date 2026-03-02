@@ -6,7 +6,7 @@
 // keywords
 // const, let, var, this, function, return 
 // let can be reassigned
-// const cannoy be reassigned: constant variable
+// const cannot be reassigned: constant variable
 
 // variable naming rules: camelCase, snake_case, you can't start a varible name with a number, you can't use hyphen in variable names.
 
