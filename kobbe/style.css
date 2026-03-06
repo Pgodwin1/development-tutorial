@@ -11,7 +11,7 @@ body {
     width: 100%;
     height: 100px;
     gap: 20px;
-    margin-left: 10px;
+    margin-left: 0px;
     top: 0;
     left: 0;
     padding: 10px;
@@ -24,7 +24,7 @@ body {
   }
   
 .navbar {
-    position: fixed;
+  position: fixed;
     top: 0;
     /*right: 99.5px;*/
     width: 130%; 
@@ -287,6 +287,11 @@ body {
   border-radius: 20px;
   padding: 30px;
 }
+ .learnmore-icon, .learnmore2-icon{
+  width: 30px;  
+  margin-top: 20px;
+  margin-right: 10px;
+ }
 
 /* service list icons*/
 .seo-icon{
@@ -402,4 +407,81 @@ body {
 }
 .case-study{
   padding: 20px;
+}
+
+/*guidelines*/
+.guidelines-container{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  gap: 40px;
+}
+
+.guidelines-header {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 25px;
+  margin: 0;
+  margin-top: 18px;
+  white-space: nowrap; 
+  margin-left: 13px;
+  background-color: #B9FF66;
+  border-radius: 10px;
+}
+
+.guidelines-subheading {
+font-family: "Space Grotesk", sans-serif;
+font-size: 17px;
+line-height: 1.6;
+flex: 1;  
+margin-top: 18px;
+}
+
+.guidelines-grid{
+  font-family: "Space Grotesk", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  margin-top: 60px;
+  margin-right: 10;
+  margin-left: 10;
+}
+
+.guideline1{
+  background: #e4e5ed;
+  padding: 30px;
+  border-radius: 20px;
+  align-items: center;
+}
+.guideline-top{
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  border-bottom: 3px solid #000;  
+}
+
+.consult {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.guideline{
+  background: #B9FF66;
+  justify-content: space-between;  /* pushes plus to right */
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+}
+.minus-icon{
+  width: 25px;   /* adjust size */
+}
+.plus-icon{
+  margin-bottom: 50px;
+  width: 25px;   /* adjust size */
+
 }
